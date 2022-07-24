@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mobinservices</class>
+ <widget class="QWidget" name="mobinservices">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lytMbnSrvics">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-6</y>
+     <width>799</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lytMbnSrvics
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/lytMbnSrvics.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upClmpBtn">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>237</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upClmpBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/offBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="downClmpBtn">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>300</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#downClmpBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:offBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pedClmpBtn">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>363</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pedClmpBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:offBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dwnSunroofBtn">
+   <property name="geometry">
+    <rect>
+     <x>342</x>
+     <y>253</y>
+     <width>58</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dwnSunroofBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/dwnBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dwnMotorBtn">
+   <property name="geometry">
+    <rect>
+     <x>572</x>
+     <y>253</y>
+     <width>58</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dwnMotorBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/dwnBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upSunroofBtn">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>273</y>
+     <width>58</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upSunroofBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/upBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upMotorBtn">
+   <property name="geometry">
+    <rect>
+     <x>716</x>
+     <y>273</y>
+     <width>58</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upMotorBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/upBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopSunroofBtn">
+   <property name="geometry">
+    <rect>
+     <x>405</x>
+     <y>259</y>
+     <width>73</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#stopSunroofBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/stopLvlBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopMotorBtn">
+   <property name="geometry">
+    <rect>
+     <x>635</x>
+     <y>259</y>
+     <width>73</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#stopMotorBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/stopLvlBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bckMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>563</x>
+     <y>390</y>
+     <width>224</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#bckMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/bckMbnSrvicsBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clpPrxyPedBtn">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>43</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#clpPrxyPedBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dwnClpPrxyBtn">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>82</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dwnClpPrxyBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upClpPrxyBtn">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>120</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upClpPrxyBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dirPrxyBtn">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>157</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dirPrxyBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="opnMicSwSnrfBtn">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>43</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#opnMicSwSnrfBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dwnMicSwBtn">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>82</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dwnMicSwBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upMicSwBtn">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>120</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upMicSwBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clsMicSwSnrfBtn">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>157</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#clsMicSwSnrfBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pedParkSttsMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>192</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pedParkSttsMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pedPwrSttsMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>192</y>
+     <width>22</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pedPwrSttsMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/crclRdBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pedParkMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>390</y>
+     <width>226</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pedParkMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/pedParkBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pedPwrMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>426</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pedPwrMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:offBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

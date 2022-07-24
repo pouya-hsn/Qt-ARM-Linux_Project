@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>services</class>
+ <widget class="QWidget" name="services">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lytSrvics">
+   <property name="geometry">
+    <rect>
+     <x>-7</x>
+     <y>0</y>
+     <width>811</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lytSrvics
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:lytSrvics.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sttsBtn">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>12</y>
+     <width>152</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#sttsBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/sttsBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>11</y>
+     <width>154</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbnBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbstBtn">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>11</y>
+     <width>153</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbstBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbstBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pwrBtn">
+   <property name="geometry">
+    <rect>
+     <x>635</x>
+     <y>12</y>
+     <width>154</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pwrBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/pwrBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lvlingBtn">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>376</y>
+     <width>153</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lvlingBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/lvlingBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clrBtn">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>376</y>
+     <width>153</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#clrBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/clrBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tempClrBtn">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>376</y>
+     <width>153</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#tempClrBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/tempClrBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bckBtn">
+   <property name="geometry">
+    <rect>
+     <x>635</x>
+     <y>376</y>
+     <width>153</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#bckBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/bckBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbstBigBtn">
+   <property name="geometry">
+    <rect>
+     <x>44</x>
+     <y>191</y>
+     <width>145</width>
+     <height>107</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbstBigBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbstBigBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbnBigBtn">
+   <property name="geometry">
+    <rect>
+     <x>231</x>
+     <y>191</y>
+     <width>145</width>
+     <height>107</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbnBigBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbnBigBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lvlingBigBtn">
+   <property name="geometry">
+    <rect>
+     <x>417</x>
+     <y>191</y>
+     <width>146</width>
+     <height>107</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lvlingBigBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/lvlingBigBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upsInvDrvBtn">
+   <property name="geometry">
+    <rect>
+     <x>602</x>
+     <y>189</y>
+     <width>150</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#upsInvDrvBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/upsInvDrvBtn.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mobsat</class>
+ <widget class="QWidget" name="Mobsat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lytmbs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lytmbs
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsPage.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsCmdBtn">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>2</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsCmdBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsCommandIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsSttsBtn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>2</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsSttsBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsStatusIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsMbnBtn">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>2</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsMbnBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsMobinIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsPwrBtn">
+   <property name="geometry">
+    <rect>
+     <x>634</x>
+     <y>2</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsPwrBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsPowerIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsLvlBtn">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>365</y>
+     <width>151</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsLvlBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsLevelingIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsClrBtn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>365</y>
+     <width>151</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsClrBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsCoolerIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsTmpBtn">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>365</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsTmpBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsTempIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mbsBackBtn">
+   <property name="geometry">
+    <rect>
+     <x>634</x>
+     <y>365</y>
+     <width>151</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsBackBtn
+{
+background-color: trasparent;
+background: none;
+border: none;
+background-repeat: none;
+border-image: url(:/mbspage/mbsBackIcon.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="mbsTxtEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>761</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cambria</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#mbsTxtEdit
+{
+	background-color :rgb(159, 182, 189);
+	border-radius: 15px ;
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cambria'; font-size:7.8pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
